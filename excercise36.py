@@ -14,7 +14,15 @@ def green_ball() :
 
 def pick_bat():
     bat = input("Please choose either a green blue or red bat?")
-
+    if bat == "green":
+        print("You can only use it to hit either the blue or red ball")
+    elif bat == "blue" :
+        print("You can use it to hit either the blue or green ball")
+    elif bat == "red" :
+        print("You can use it to hit eitherr the blue or green ball")
+    else:
+        exit(0)
+        
 
 print("please pick a ball")
 ball = input("please choose the ball you want")
