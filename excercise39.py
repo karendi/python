@@ -35,7 +35,7 @@ print("Nairobi has:" , towns[counties['nairobi']] )
 print("Thika has:"  , towns[counties['Thika']] )
 
 print("-" * 10)
-new_dic = {}
+new_dic = {} #created an empty dict to be able to use the counties dict twice?
 new_dic = counties.copy()
 for county, abbrev in new_dic.items():
     print("%s is abbreviated %s" %(county , abbrev))
@@ -52,7 +52,7 @@ for counties , abbreviation in counties.items():
     print("%r county is abbreviated %r and has towns %r" %(counties , abbreviation
     , towns[abbreviation]))
 
-#printing every counties abbreviation
+#created an empty dict to be able to use the counties dict for the third time why?
 second_dict = {}
 second_dict = new_dic.copy()
 
