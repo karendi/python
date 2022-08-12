@@ -13,6 +13,7 @@ while len(stuff) != 10:
 
 print("here we go %r" %stuff)
 print("lets do something with the stuff")
+print("I have changed something")
 
 print(stuff[0])
 print(stuff[1])
